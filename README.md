@@ -1,8 +1,6 @@
 ## SpringBoot ALL 
 
-### DAO
-
-**dao层的相关知识点**
+**感觉和flask好像**
 
 #### JpaRepository
 
