@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+##mybatis配置
+#mybatis:
+#  #xml文件位置
+#  mapper-locations: classpath:mapper/*.xml
+#  #配置实体类的位置
+#  type-aliases-package: com.wkk.mybatis.pojo
+# datasource
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springboot?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8
+    username: root
+    password: kwk961202

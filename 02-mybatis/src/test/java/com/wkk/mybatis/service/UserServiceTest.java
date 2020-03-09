@@ -1,3 +1,10 @@
+package com.wkk.mybatis.service;
+
+import com.wkk.mybatis.dao.UserDao;
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
@@ -5,6 +12,14 @@ import static org.junit.jupiter.api.Assertions.*;
  * @Author: kongwiki
  * @Email: kongwiki@163.com
  */
+@SpringBootTest
 class UserServiceTest {
+    @Autowired
+    private UserService userService;
 
+    @Test
+    void findUserById() {
+        long id = 1;
+        System.out.println("username: "+userService.findUserById(id).getUsername());
+    }
 }

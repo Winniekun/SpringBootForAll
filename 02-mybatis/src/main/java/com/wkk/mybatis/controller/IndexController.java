@@ -5,5 +5,6 @@ package com.wkk.mybatis.controller;
  * @Author: kongwiki
  * @Email: kongwiki@163.com
  */
+
 public class IndexController {
 }
