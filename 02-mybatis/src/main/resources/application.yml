@@ -14,3 +14,6 @@ spring:
     url: jdbc:mysql://localhost:3306/springboot?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8
     username: root
     password: kwk961202
+
+user:
+  name: kongweikun

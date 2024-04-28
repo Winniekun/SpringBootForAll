@@ -1,6 +1,5 @@
 package com.wkk.aop.dao.impl;
 
-import com.sun.javafx.fxml.BeanAdapter;
 import com.wkk.aop.dao.SysLogDao;
 import com.wkk.aop.pojo.SysLog;
 import org.springframework.beans.factory.annotation.Autowired;
